@@ -1,0 +1,49 @@
+.top_section {
+    background-color: #F4F0F8;
+    color: #232536;
+    height: 348px;
+
+    .title {
+        font-size: 56px;
+    }
+
+    .paging {
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+}
+
+
+.search_part {
+    margin-top: 40px;
+
+    .search {
+        height: 60px;
+    }
+
+}
+
+
+.posts {
+    .posts_left {
+        img {
+            width: 447px;
+            height: 312px;
+
+        }
+    }
+
+    .posts_right {
+        .pre_title {
+            color: #592EA9;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            margin-bottom: 80px;
+        }
+
+    }
+}

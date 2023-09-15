@@ -1,0 +1,114 @@
+header {
+  background-color: #232536;
+  height: 80px;
+}
+header .navbar_list .list_item {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+header .navbar_list .login {
+  width: 147px;
+  height: 56px;
+  background-color: #fff;
+  border: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #232536;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+
+main .container input {
+  width: 769px;
+  height: 76px;
+}
+main .container button {
+  color: #000;
+  width: 769px;
+  height: 76px;
+}
+
+.hero {
+  height: 720px;
+  color: #fff;
+}
+.hero .btn {
+  width: 204px;
+  height: 56px;
+}
+
+.cards {
+  width: 405px;
+  color: #232536;
+}
+.cards img {
+  width: 405px;
+  margin-bottom: 20px;
+  height: 318px;
+}
+.cards .author {
+  opacity: 0.7;
+}
+.cards .title {
+  margin-top: 20px;
+}
+.cards .paragraph {
+  opacity: 0.7;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #232536;
+}
+.categories .category_card {
+  width: 296px;
+  padding: 32px;
+}
+.categories .category_card:hover {
+  background-color: #FFD050;
+  color: #232536;
+}
+.categories .category_card:hover p {
+  opacity: 0.7;
+}
+
+.top_section {
+  background-color: #F4F0F8;
+  color: #232536;
+  height: 348px;
+}
+.top_section .title {
+  font-size: 56px;
+}
+.top_section .paging {
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search_part {
+  margin-top: 40px;
+}
+.search_part .search {
+  height: 60px;
+}
+
+.posts .posts_left img {
+  width: 447px;
+  height: 312px;
+}
+.posts .posts_right .pre_title {
+  color: #592EA9;
+  margin-bottom: 20px;
+}
+.posts .posts_right .title {
+  margin-bottom: 80px;
+}/*# sourceMappingURL=main.css.map */
