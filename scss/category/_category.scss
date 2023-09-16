@@ -47,3 +47,23 @@
 
     }
 }
+
+
+.pagination {
+    button {
+
+        color: #232536;
+        font-weight: bold;
+        font-size: 28px;
+        border: none;
+        background-color: #fff;
+    }
+}
+
+
+.post_detail {
+    .img {
+        height: 582px;
+        object-fit: cover;
+    }
+}

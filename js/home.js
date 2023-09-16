@@ -27,7 +27,7 @@ async function displayHero(text) {
         <p class="paragraph pt-4 w-50">
           ${el.description}
         </p>
-        <button class="btn btn-warning">Read More ></button>
+        <a href="./all.html"><button class="btn btn-warning">Read More ></button></a>
       </div>
     </div>
       `;
@@ -51,7 +51,7 @@ async function displayCards(text) {
 
     result.map((el) => {
       str += `
-        <div class="cards">
+        <div onclick="goDetails(${el.id})" class="cards">
         <img src="${el.img}" alt="" />
         <p class="author d-inline">
           By <b class="text-warning d-inline">${el.author}</b> | ${el.date}
@@ -70,6 +70,10 @@ async function displayCards(text) {
   } catch (e) {
     console.log(e);
   }
+}
+function goDetails(id) {
+  window.location = "./post.html";
+  localStorage.setItem("ID", id);
 }
 
 displayCards();

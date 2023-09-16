@@ -28,7 +28,7 @@ async function displayCards(text) {
     let str = "";
     result.map((el) => {
       str += `
-    <div class="posts d-flex pt-5 gap-5">
+    <div onclick="goDetails(${el.id})" class="posts d-flex pt-5 gap-5">
           <div class="posts_left">
             <img src="${el.img}" alt="" />
           </div>
@@ -51,3 +51,8 @@ async function displayCards(text) {
 }
 
 displayCards();
+
+function goDetails(id) {
+  window.location = "./post.html";
+  localStorage.setItem("ID", id);
+}

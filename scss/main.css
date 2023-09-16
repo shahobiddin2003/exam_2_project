@@ -111,4 +111,18 @@ main .container button {
 }
 .posts .posts_right .title {
   margin-bottom: 80px;
+}
+
+.pagination button {
+  color: #232536;
+  font-weight: bold;
+  font-size: 28px;
+  border: none;
+  background-color: #fff;
+}
+
+.post_detail .img {
+  height: 582px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
